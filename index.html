@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi Casita en Claromecó</title>
+<meta name="description" content="Casa en alquiler en Claromecó, disponible todo el año. US$ 60 por día, mínimo 3 días. WiFi, aire frío/calor, patio con pérgola y parrilla. A 13 cuadras del mar.">
+<meta name="theme-color" content="#faf7f1">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mi Casita en Claromecó">
+<meta property="og:description" content="US$ 60 por día. WiFi, aire frío/calor, patio con pérgola y parrilla, a 13 cuadras del mar.">
+<meta property="og:image" content="img/fachada.jpg">
+<meta property="og:locale" content="es_AR">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23faf7f1'/%3E%3Cpath d='M6 15.5 16 7l10 8.5' fill='none' stroke='%237e8f72' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M9 14.5V25h14V14.5' fill='none' stroke='%237e8f72' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<!-- ════════════════════════════════════════════════════════════════
+     DATOS EDITABLES — cambiá solo lo de acá abajo y listo.
+     ════════════════════════════════════════════════════════════════ -->
+<script>
+window.CASITA = {
+  // Teléfono en formato internacional, sin + ni espacios ni guiones.
+  telefono: "5492983590095",
+
+  // Cómo se muestra el teléfono en pantalla.
+  telefonoVisible: "+54 9 2983 59-0095",
+
+  // Precio: el número grande y la aclaración de abajo.
+  precio: "US$ 60",
+  precioDetalle: "por día",
+
+  // Aclaraciones debajo del precio.
+  precioNotas: [
+    "Mínimo 3 días de estadía",
+    "Ingreso y salida a las 11 h"
+  ],
+
+  // Ubicación: dirección que se muestra y coordenadas del mapa.
+  direccion: "Calle 34 y 37, Claromecó",
+  lat: -38.849596,
+  lon: -60.061975,
+
+  // Mensaje con el que se abre WhatsApp.
+  mensajeWsp: "¡Hola! Vi la página de Mi Casita en Claromecó y quería consultar por disponibilidad."
+};
+</script>
+</head>
+
+<body>
+<a class="skip" href="#galeria">Saltar al contenido</a>
+
+<header class="nav" id="nav">
+  <div class="nav__in">
+    <a class="nav__brand" href="#top">Mi Casita en Claromecó</a>
+    <nav class="nav__links">
+      <a href="#galeria">Fotos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#valor">Valor</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+    <a class="btn btn--wsp btn--sm" data-wsp href="#contacto">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wsp"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.86-.87 2.09s.9 2.43 1.02 2.6c.12.16 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero">
+    <div class="wrap hero__in">
+      <p class="eyebrow reveal">Claromecó · Buenos Aires</p>
+      <h1 class="hero__title reveal">Mi Casita<br><em>en Claromecó</em></h1>
+      <p class="hero__sub reveal">Disponible para disfrutar todo el año.</p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--wsp" data-wsp href="#contacto">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wsp"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.86-.87 2.09s.9 2.43 1.02 2.6c.12.16 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+          Consultar disponibilidad
+        </a>
+        <a class="btn btn--ghost" href="#galeria">Ver las fotos</a>
+      </div>
+    </div>
+
+    <div class="hero__media reveal">
+      <div class="hero__frame">
+        <picture>
+          <source srcset="img/fachada.avif" type="image/avif">
+          <img src="img/fachada.jpg" alt="Frente de la casa con pérgola de madera y jardín" width="720" height="542" fetchpriority="high" data-parallax>
+        </picture>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <ul class="facts reveal">
+        <li><span>2 adultos</span> y un niño</li>
+        <li><span>13 cuadras</span> del mar</li>
+        <li><span>10 cuadras</span> de la reserva forestal</li>
+        <li><span>Todo</span> el año</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ░░ INTRO ░░ -->
+  <section class="intro wrap">
+    <p class="lead reveal">
+      Una casa tranquila, luminosa y ordenada, con patio y pérgola para pasar el día afuera.
+      Cerca del mar y de la reserva forestal, para venir a descansar en cualquier época del año.
+    </p>
+  </section>
+
+  <!-- ░░ GALERÍA ░░ -->
+  <section id="galeria" class="section">
+    <div class="wrap">
+      <h2 class="h2 reveal">La casa</h2>
+      <p class="sub reveal">Tocá cualquier foto para verla más grande.</p>
+    </div>
+    <div class="wrap">
+      <div class="gal" id="gal">
+        <figure class="gal__i gal__i--wide reveal"><picture><source srcset="img/pergola.avif" type="image/avif"><img src="img/pergola.jpg" alt="Pérgola de madera sobre el patio, al atardecer" loading="lazy" width="1200" height="900"></picture><figcaption>La pérgola</figcaption></figure>
+        <figure class="gal__i gal__i--tall reveal"><picture><source srcset="img/living.avif" type="image/avif"><img src="img/living.jpg" alt="Living con sillón y ventanal al jardín" loading="lazy" width="720" height="959"></picture><figcaption>El living</figcaption></figure>
+        <figure class="gal__i gal__i--tall reveal"><picture><source srcset="img/deck-fruta.avif" type="image/avif"><img src="img/deck-fruta.jpg" alt="Naranja cortada en un bol sobre la mesa del deck, al sol" loading="lazy" width="900" height="1200"></picture><figcaption>Fruta al sol</figcaption></figure>
+        <figure class="gal__i gal__i--tall reveal"><picture><source srcset="img/patio-mesa.avif" type="image/avif"><img src="img/patio-mesa.jpg" alt="Mesa de madera y bancos bajo la pérgola" loading="lazy" width="720" height="1061"></picture><figcaption>Mesa en el patio</figcaption></figure>
+        <figure class="gal__i reveal"><picture><source srcset="img/cocina.avif" type="image/avif"><img src="img/cocina.jpg" alt="Cocina con mesa, sillas y cocina a gas" loading="lazy" width="1200" height="675"></picture><figcaption>La cocina</figcaption></figure>
+        <figure class="gal__i reveal"><picture><source srcset="img/dormitorio.avif" type="image/avif"><img src="img/dormitorio.jpg" alt="Dormitorio con cama de dos plazas y ventana" loading="lazy" width="720" height="540"></picture><figcaption>El dormitorio</figcaption></figure>
+        <figure class="gal__i reveal"><picture><source srcset="img/bano.avif" type="image/avif"><img src="img/bano.jpg" alt="Baño con bacha de piedra y ducha" loading="lazy" width="720" height="540"></picture><figcaption>El baño</figcaption></figure>
+        <figure class="gal__i reveal"><picture><source srcset="img/parrilla-noche.avif" type="image/avif"><img src="img/parrilla-noche.jpg" alt="Patio de noche con guirnaldas encendidas y la parrilla prendida" loading="lazy" width="720" height="480"></picture><figcaption>Noche de parrilla</figcaption></figure>
+        <figure class="gal__i gal__i--tall gal__i--mas reveal"><picture><source srcset="img/desayuno.avif" type="image/avif"><img src="img/desayuno.jpg" alt="Desayuno en la mesa, con el living de fondo" loading="lazy" width="720" height="1280"></picture><figcaption>Las mañanas</figcaption></figure>
+        <figure class="gal__i gal__i--tall gal__i--mas reveal"><picture><source srcset="img/deck-flores.avif" type="image/avif"><img src="img/deck-flores.jpg" alt="Laureles en flor junto al deck de madera" loading="lazy" width="900" height="1200"></picture><figcaption>Desde el deck</figcaption></figure>
+        <figure class="gal__i gal__i--wide gal__i--mas reveal"><picture><source srcset="img/exterior-lateral.avif" type="image/avif"><img src="img/exterior-lateral.jpg" alt="La casa desde la calle de tierra, con el pinar de fondo" loading="lazy" width="720" height="542"></picture><figcaption>El entorno</figcaption></figure>
+        <figure class="gal__i gal__i--mas reveal"><picture><source srcset="img/placard.avif" type="image/avif"><img src="img/placard.jpg" alt="Placard amplio con estantes y cajones" loading="lazy" width="720" height="540"></picture><figcaption>Placard</figcaption></figure>
+        <figure class="gal__i gal__i--mas reveal"><picture><source srcset="img/galeria-calle.avif" type="image/avif"><img src="img/galeria-calle.jpg" alt="Galería de la casa y la calle arbolada" loading="lazy" width="720" height="540"></picture><figcaption>La galería</figcaption></figure>
+        <figure class="gal__i gal__i--mas reveal"><picture><source srcset="img/patio-sol.avif" type="image/avif"><img src="img/patio-sol.jpg" alt="Patio con el sol bajo entre los árboles" loading="lazy" width="720" height="960"></picture><figcaption>El fondo</figcaption></figure>
+        <figure class="gal__i gal__i--mas reveal"><picture><source srcset="img/deck.avif" type="image/avif"><img src="img/deck.jpg" alt="Deck de madera con un cuenco de cerámica" loading="lazy" width="720" height="960"></picture><figcaption>El deck</figcaption></figure>
+        <figure class="gal__i gal__i--mas reveal"><picture><source srcset="img/flores.avif" type="image/avif"><img src="img/flores.jpg" alt="Agapantos floreciendo junto al cerco" loading="lazy" width="720" height="540"></picture><figcaption>El jardín</figcaption></figure>
+        <figure class="gal__i gal__i--mas reveal"><picture><source srcset="img/entorno.avif" type="image/avif"><img src="img/entorno.jpg" alt="Jazmín sobre el cerco de la casa" loading="lazy" width="720" height="540"></picture><figcaption>El cerco</figcaption></figure>
+      </div>
+      <div class="gal__mas">
+        <button type="button" class="btn btn--ghost" id="verMas" aria-expanded="false" aria-controls="gal">
+          Ver las 9 fotos restantes
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SERVICIOS ░░ -->
+  <section id="servicios" class="section section--alt">
+    <div class="wrap">
+      <h2 class="h2 reveal">Lo que tiene</h2>
+      <div class="serv">
+        <div class="serv__i reveal">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M2.5 9.5a14 14 0 0 1 19 0M5.8 13a9.5 9.5 0 0 1 12.4 0M9 16.4a4.7 4.7 0 0 1 6 0"/><circle cx="12" cy="19.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+          <h3>WiFi</h3><p>Conexión en toda la casa.</p>
+        </div>
+        <div class="serv__i reveal">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><rect x="3" y="4.5" width="18" height="9" rx="2"/><path d="M6.5 17v1.5M12 17v2.5M17.5 17v1.5M6.5 9h11"/></svg>
+          <h3>Aire frío/calor</h3><p>Para el verano y para el invierno.</p>
+        </div>
+        <div class="serv__i reveal">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M4 9.5h16a8 8 0 0 1-8 7 8 8 0 0 1-8-7Z"/><path d="M7.5 19.5 9 16m7.5 3.5L15 16"/><path d="M9.5 6.2c0-1 1-1.4 1-2.4M12 6.2c0-1 1-1.4 1-2.4M14.5 6.2c0-1 1-1.4 1-2.4"/></svg>
+          <h3>Parrilla</h3><p>En el patio, bajo la pérgola.</p>
+        </div>
+        <div class="serv__i reveal">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M3 8.5h18M4.5 8.5V20M19.5 8.5V20"/><path d="M3 8.5 5 5h14l2 3.5"/><path d="M8 8.5V20M16 8.5V20"/></svg>
+          <h3>Patio con pérgola</h3><p>Mesa, sillones y sombra.</p>
+        </div>
+        <div class="serv__i reveal">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M3.5 10.5h17"/><circle cx="7.5" cy="7.2" r=".9" fill="currentColor" stroke="none"/><circle cx="11" cy="7.2" r=".9" fill="currentColor" stroke="none"/><path d="M7.5 14v3"/></svg>
+          <h3>Cocina</h3><p>Equipada, con mesa para comer.</p>
+        </div>
+        <div class="serv__i reveal">
+          <svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M4 12.5h16"/><path d="M5.5 12.5v3a5 5 0 0 0 5 5h3a5 5 0 0 0 5-5v-3"/><path d="M8 12.5V6.2A2.2 2.2 0 0 1 10.2 4h.3A2.2 2.2 0 0 1 12.7 6.2"/></svg>
+          <h3>Baño completo</h3><p>Con ducha.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ VALOR ░░ -->
+  <section id="valor" class="section">
+    <div class="wrap">
+      <div class="price reveal">
+        <p class="price__k">Valor</p>
+        <p class="price__v" id="precio">US$ 60</p>
+        <p class="price__d" id="precioDetalle">por día</p>
+        <ul class="price__notes" id="precioNotas"></ul>
+        <a class="btn btn--wsp" data-wsp href="#contacto">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wsp"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.86-.87 2.09s.9 2.43 1.02 2.6c.12.16 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+          Consultar fechas
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ UBICACIÓN ░░ -->
+  <section id="ubicacion" class="section section--alt">
+    <div class="wrap">
+      <h2 class="h2 reveal">Dónde queda</h2>
+      <div class="loc">
+        <div class="loc__txt reveal">
+          <p class="loc__dir" id="direccion">Calle 34 y 37, Claromecó</p>
+          <ul class="loc__list">
+            <li><strong>13 cuadras</strong> del mar</li>
+            <li><strong>10 cuadras</strong> de la entrada a la reserva forestal</li>
+            <li>Zona tranquila, de calles arboladas</li>
+          </ul>
+          <a class="link" id="mapsLink" href="#" target="_blank" rel="noopener">Abrir en Google Maps →</a>
+        </div>
+        <div class="loc__map reveal">
+          <iframe id="mapa" title="Mapa de la ubicación en Claromecó" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src=""></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ REGLAS ░░ -->
+  <section id="reglas" class="section">
+    <div class="wrap">
+      <h2 class="h2 reveal">Para que todos estemos cómodos</h2>
+      <div class="rules">
+        <div class="rule reveal">
+          <h3>Casa libre de humo</h3>
+          <p>No se fuma adentro de la casa.</p>
+        </div>
+        <div class="rule reveal">
+          <h3>Sin mascotas</h3>
+          <p>En la casa nunca hubo animales y preferimos mantenerla así.</p>
+        </div>
+        <div class="rule reveal">
+          <h3>Cuidamos el vecindario</h3>
+          <p>No se permite música a volumen alto fuera de los horarios permitidos.</p>
+        </div>
+        <div class="rule reveal">
+          <h3>Solo los huéspedes registrados</h3>
+          <p>No se aceptan invitados además de quienes se alojan.</p>
+        </div>
+        <div class="rule reveal">
+          <h3>Capacidad</h3>
+          <p>Para 2 adultos y un niño.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ ROCÍO ░░ -->
+  <section class="section section--alt">
+    <div class="wrap">
+      <article class="about reveal">
+        <div class="about__media">
+          <picture>
+            <source srcset="img/flores.avif" type="image/avif">
+            <img src="img/flores.jpg" alt="Agapantos floreciendo en el jardín de la casa" loading="lazy" width="720" height="540">
+          </picture>
+        </div>
+        <div class="about__txt">
+          <p class="eyebrow">Un poquito sobre mí y mi casita</p>
+          <h2 class="h2 h2--tight">Hola, soy Rocío</h2>
+          <p>Esta casita es mi pequeño refugio en Claromecó, un lugar muy especial para mí, donde disfruto descansar, practicar yoga y pasar tiempo al aire libre.</p>
+          <p>Soy vegetariana, no fumo y me gusta vivir en espacios limpios, ordenados y armoniosos. Por eso, cuido mucho cada detalle de la casa y procuro mantenerla libre de humo y de olores, preservando sus ambientes tal como me gusta encontrarlos.</p>
+          <p>Me llevo bien con mis vecinos y valoro la tranquilidad, el respeto y la convivencia. En la casa nunca hubo mascotas y prefiero mantenerla así.</p>
+          <p>La comparto con gusto con quienes quieran disfrutarla y cuidarla con el mismo respeto con el que yo la cuido, para que siga siendo ese lugar lindo al que siempre dan ganas de volver.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACTO ░░ -->
+  <section id="contacto" class="section cta">
+    <div class="wrap cta__in reveal">
+      <h2 class="h2">¿Nos ponemos de acuerdo?</h2>
+      <p class="sub">Escribinos por WhatsApp y te contamos disponibilidad y valores.</p>
+      <a class="btn btn--wsp btn--lg" data-wsp href="#">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wsp"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.86-.87 2.09s.9 2.43 1.02 2.6c.12.16 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+        Escribir por WhatsApp
+      </a>
+      <p class="cta__tel">o llamanos al <a href="tel:+5492983590095" id="telLink">+54 9 2983 59-0095</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div>
+      <p>Mi Casita en Claromecó</p>
+      <p class="foot__dim">Calle 34 y 37 · Claromecó, Tres Arroyos</p>
+    </div>
+    <p class="foot__dim foot__cred">
+      Desarrollo: Jorge Bianchi ·
+      <a href="https://wa.me/5492983405871" target="_blank" rel="noopener">2983 405871</a>
+    </p>
+  </div>
+</footer>
+
+<!-- ░░ LIGHTBOX ░░ -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+  <button class="lb__x" id="lbX" aria-label="Cerrar">&times;</button>
+  <button class="lb__nav lb__nav--prev" id="lbPrev" aria-label="Anterior">&#8249;</button>
+  <button class="lb__nav lb__nav--next" id="lbNext" aria-label="Siguiente">&#8250;</button>
+  <figure class="lb__fig">
+    <img id="lbImg" src="" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<a class="fab" data-wsp href="#contacto" aria-label="Consultar por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.24 8.24c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.86-.87 2.09s.9 2.43 1.02 2.6c.12.16 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
