@@ -1,1 +1,4 @@
 .DS_Store
+
+# Documentación del cliente y precios internos: solo local, no publicar
+docs/
