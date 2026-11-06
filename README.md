@@ -8,6 +8,7 @@ index.html     ← la página (arriba de todo están los datos editables)
 styles.css     ← los estilos
 script.js      ← galería, mapa y animaciones
 img/           ← las 17 fotos (.avif + .jpg de respaldo)
+docs/          ← propuesta y precios internos (solo local, no está en el repo)
 ```
 
 Los originales sin procesar quedaron fuera del proyecto, en
@@ -46,19 +47,31 @@ python3 -m http.server 8000
 
 y entrá a <http://localhost:8000>.
 
-## Publicarla en GitHub Pages
+## Publicación
 
-1. Creá un repositorio en GitHub y subí estos archivos a la rama `main`.
-2. En el repo: **Settings → Pages**.
-3. En *Build and deployment*, Source: **Deploy from a branch**.
-4. Branch: **main**, carpeta **/ (root)** → **Save**.
-5. En un minuto queda publicada en `https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/`.
+La web está en **Cloudflare Pages**, conectada a este repo de GitHub
+(`harikirtandas/casita-claromeco`). Cada push a `main` dispara un deploy
+automático: no hay que subir nada a mano.
 
-> Si el repo se llama `TU-USUARIO.github.io`, la dirección es directamente
-> `https://TU-USUARIO.github.io/`.
+```sh
+git add -A && git commit -m "..." && git push
+```
 
-El archivo `.nojekyll` ya está incluido para que GitHub publique los archivos
-tal como están.
+En un minuto el cambio está online. El estado de cada deploy se ve en el panel
+de Cloudflare: **Workers & Pages → el proyecto → Deployments**. Como no hay
+build, en la configuración del proyecto el *Build command* va vacío y el
+*Build output directory* es `/` (la raíz del repo).
+
+Antes estaba en GitHub Pages, que quedó desactivado; el `.nojekyll` es de esa
+época y no molesta.
+
+### Lo que no se publica
+
+Cloudflare publica solo lo que está en el repo. La carpeta `docs/` (propuestas
+para el cliente y la tabla de precios interna) está en `.gitignore`, así que
+queda solo en la compu y nunca llega a la web. **No subas la carpeta a mano**
+(arrastrándola al panel o con `wrangler pages deploy`): ese camino ignora el
+`.gitignore` y publicaría `docs/`.
 
 ## Cambiar o agregar fotos
 
